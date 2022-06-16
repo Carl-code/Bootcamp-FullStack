@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Sport Progress Register:</h1>
+    <form action="GET">
+      <fieldset>
+        <legend>Datos Principales:</legend>
+        <label for="firstName">Nombre:</label>
+        <input type="text" name="firstName" id="firstName" required />
+        <br />
+        <label for="address">Direccion:</label>
+        <input type="text" name="address" id="address" required />
+        <br />
+        <label for="city">Ciudad:</label>
+        <input type="text" name="city" id="city" required />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Datos Secundarios:</legend>
+        <label for="email">Correo Electronico:</label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <label for="postCode">Codigo Postal:</label>
+        <input type="number" name="postCode" id="postCode" required />
+        <br />
+        <label for="telephone">Telefono:</label>
+        <input type="number" name="telephone" id="telephone" required />
+        <br />
+        <label for="image_profile">Sube tu Foto de perfil</label>
+        <input type="file" id="image_profile" name="image_profile" />
+        <br />
+        <label for="clear">Limpiar Campos</label>
+        <input type="reset" id="clear" value="limpiar" />
+      </fieldset>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
